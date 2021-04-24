@@ -5,16 +5,22 @@ using UnityEngine;
 public class movingWall : MonoBehaviour
 {
     public float moveSpeed;
-    public Transform movePoint;
-
     public LayerMask whatStops;
+    public Transform newPoint;
+    int direction = 1;
 
-    void Update()
-    {
-        if(Physics2D.OverlapCircle(movePoint.position + new Vector3(moveSpeed, 0f, 0f), .5f, whatStops)){
-            moveSpeed = moveSpeed * -1;
+    void Start(){
+        newPoint.parent = null;
+    }
+
+    void Update(){
+        transform.position = Vector3.MoveTowards(transform.position, newPoint.position, moveSpeed * Time.deltaTime);
+    }
+
+    public void move(){
+        if(Physics2D.OverlapCircle(transform.position + new Vector3(1f*direction, 0f, 0f), .2f, whatStops)){
+            direction *= -1;
         }
-
-    movePoint.position += new Vector3(moveSpeed, 0f, 0f);
+        newPoint.position = transform.position + new Vector3(1f*direction, 0f, 0f);
     }
 }

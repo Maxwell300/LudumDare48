@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
 public class Character : MonoBehaviour
@@ -28,6 +29,8 @@ public class Character : MonoBehaviour
 
     public List<Vector2> inputsArray;
     public int currentIndex = 0;
+    public UnityEvent movedEvent;
+
 
     // Start is called before the first frame update
     void Start()
@@ -76,6 +79,7 @@ public class Character : MonoBehaviour
                 currentIndex++;
                 idk = true;
                 idkTimer = 0.6f;
+                movedEvent.Invoke();
             } 
             else if ( currentIndex == inputsArray.Count) {
                 isAllowedToMove = true;
