@@ -19,8 +19,6 @@ public class Shoot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        playerScript = player.GetComponent<Character>();
 
-        isMoving = playerScript;
     }
 }
