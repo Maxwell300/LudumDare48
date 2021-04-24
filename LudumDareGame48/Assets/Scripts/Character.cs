@@ -20,7 +20,7 @@ public class Character : MonoBehaviour
     bool isAllowedToMove = true;
     bool idk = true;
     float idkTimer = 0.6f;
-    bool moving = false;
+    public bool moving = false;
     float movingTimer;
     public float walkSpeed = 3f;
     float t = 0;
@@ -46,7 +46,7 @@ public class Character : MonoBehaviour
         GlobalVariables.Timer(ref idk, ref idkTimer);
 
         foreach (Vector2 i in inputsArray) {
-            Debug.Log(i.x + ", " + i.y);
+            //Debug.Log(i.x + ", " + i.y);
         }
         input = new Vector2 (Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         if (Vector3.Distance(transform.position, movePoint.position) <= 0.05f && !moving && isAllowedToMove){
