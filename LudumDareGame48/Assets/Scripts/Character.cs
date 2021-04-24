@@ -26,36 +26,32 @@ public class Character : MonoBehaviour
     void Start()
     {
         rigidBody2D = GetComponent<Rigidbody2D>();
-        
+        movePoint.parent = null;
     }
     
     // Update is called once per frame
     void Update()
     {
-        
-    }
-
-    void FixedUpdate() {
         transform.position = Vector3.MoveTowards(transform.position, movePoint.position, walkSpeed * Time.deltaTime);
 
         Timer(ref moving, ref movingTimer);
 
-        if (Vector3.Distance(transform.position, movePoint.position) <= 0.5f && !moving){
+        if (Vector3.Distance(transform.position, movePoint.position) <= 0.05f && !moving){
             if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) == 1f) {
-                Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-                if (input.x < 0) {
-                    input.x *= -1;
-                } 
-                movePoint.position += new Vector3(0.2f, 0f, 0f);
+                movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f);
                 moving = true;
-                movingTimer = 1f;
+                movingTimer = 0.6f;
             }
             else if (Mathf.Abs(Input.GetAxisRaw("Vertical")) == 1f) {
                 movePoint.position += new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f);
                 moving = true;
-                movingTimer = 1f;
+                movingTimer = 0.6f;
             }
         }
+    }
+
+    void FixedUpdate() {
+        
     }
 
     public bool Timer(ref bool isChanging, ref float timer) {
