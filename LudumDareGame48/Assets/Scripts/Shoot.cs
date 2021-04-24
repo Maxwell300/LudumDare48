@@ -5,8 +5,7 @@ using UnityEngine;
 public class Shoot : MonoBehaviour
 {
 
-
-
+    public GameObject player;
 
     // Start is called before the first frame update
     void Start()
@@ -14,11 +13,22 @@ public class Shoot : MonoBehaviour
         
     }
 
-    public GameObject player;
+   
 
     // Update is called once per frame
     void Update()
     {
+        if (player.GetComponent<Character>().moving)
+        {
+
+            transform.position += Vector3.right * Time.deltaTime;
+
+        }
+        else
+        {
+
+        }
+
 
     }
 }
