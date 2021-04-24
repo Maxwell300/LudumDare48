@@ -27,7 +27,7 @@ public class Character : MonoBehaviour
     public LayerMask wall;
 
     public List<Vector2> inputsArray;
-    int currentIndex = 0;
+    public int currentIndex = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -69,7 +69,6 @@ public class Character : MonoBehaviour
         
     }
 
-
     void movementHelper() {
         if (!idk) {
             if (currentIndex != inputsArray.Count) {
@@ -99,18 +98,4 @@ public class Character : MonoBehaviour
             }
         }
     }
-    // public bool Timer(ref bool isChanging, ref float timer) {
-    //     Debug.Log("timer is: " + timer);
-    //     Debug.Log("isChanging: " + isChanging);
-    //     if (isChanging)
-    //     {
-    //         timer -= Time.deltaTime;
-    //         //Debug.Log("after subtraction: " + timer);
-    //         if (timer < 0)
-    //         {
-    //             isChanging = false;
-    //         }
-    //     }
-    //     return isChanging;
-    // }
 }
