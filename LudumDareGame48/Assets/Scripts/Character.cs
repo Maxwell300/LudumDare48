@@ -17,17 +17,24 @@ public class Character : MonoBehaviour
     Vector2 input;
     Vector3 startPos;
     Vector3 endPos;
+    bool isAllowedToMove = true;
+    bool idk = true;
+    float idkTimer = 0.6f;
     bool moving = false;
     float movingTimer;
     public float walkSpeed = 3f;
     float t = 0;
     public LayerMask wall;
 
+    public List<Vector2> inputsArray;
+    public int currentIndex = 0;
+
     // Start is called before the first frame update
     void Start()
     {
         rigidBody2D = GetComponent<Rigidbody2D>();
         movePoint.parent = null;
+        inputsArray = new List<Vector2>();
     }
     
     // Update is called once per frame
@@ -35,23 +42,26 @@ public class Character : MonoBehaviour
     {
         transform.position = Vector3.MoveTowards(transform.position, movePoint.position, walkSpeed * Time.deltaTime);
 
-        Timer(ref moving, ref movingTimer);
+        GlobalVariables.Timer(ref moving, ref movingTimer);
+        GlobalVariables.Timer(ref idk, ref idkTimer);
 
-        if (Vector3.Distance(transform.position, movePoint.position) <= 0.05f && !moving){
-            if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) == 1f) {
-                if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, wall)) {
-                    movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f);
-                    moving = true;
-                    movingTimer = 0.6f;
-                }
+        foreach (Vector2 i in inputsArray) {
+            Debug.Log(i.x + ", " + i.y);
+        }
+        input = new Vector2 (Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        if (Vector3.Distance(transform.position, movePoint.position) <= 0.05f && !moving && isAllowedToMove){
+            if (Mathf.Abs(input.x) == 1f || Mathf.Abs(input.y) == 1f) {
+                currentIndex = 0;
+                inputsArray.Add(input);
+                moving = true;
+                movingTimer = 0.6f * (inputsArray.Count + 1);
+                isAllowedToMove = false;
+                idk = false;
+                movementHelper();
             }
-            else if (Mathf.Abs(Input.GetAxisRaw("Vertical")) == 1f) {
-                if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f), .2f, wall)) {
-                    movePoint.position += new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f);
-                    moving = true;
-                    movingTimer = 0.6f;
-                }
-            }
+        }
+        if (currentIndex > 0) {
+            movementHelper();
         }
     }
 
@@ -59,18 +69,33 @@ public class Character : MonoBehaviour
         
     }
 
-    public bool Timer(ref bool isChanging, ref float timer) {
-        Debug.Log("timer is: " + timer);
-        Debug.Log("isChanging: " + isChanging);
-        if (isChanging)
-        {
-            timer -= Time.deltaTime;
-            //Debug.Log("after subtraction: " + timer);
-            if (timer < 0)
-            {
-                isChanging = false;
+    void movementHelper() {
+        if (!idk) {
+            if (currentIndex != inputsArray.Count) {
+                movement(inputsArray[currentIndex]);
+                currentIndex++;
+                idk = true;
+                idkTimer = 0.6f;
+            } 
+            else if ( currentIndex == inputsArray.Count) {
+                isAllowedToMove = true;
+                idk = false;
+            }
+            else {
+                idk = false;
             }
         }
-        return isChanging;
+    }
+    void movement (Vector2 input) {
+        if (Mathf.Abs(input.x) == 1f) {
+            if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(input.x, 0f, 0f), .2f, wall)) {
+                movePoint.position += new Vector3(inputsArray[currentIndex].x, 0f, 0f);
+            }
+        }
+        else if (Mathf.Abs(input.y) == 1f) {
+            if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, input.y, 0f), .2f, wall)) {
+                movePoint.position += new Vector3(0f, inputsArray[currentIndex].y, 0f);
+            }
+        }
     }
 }
