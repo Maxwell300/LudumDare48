@@ -4,6 +4,7 @@ using System.Threading;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
+using UnityEngine.Tilemaps;
 
 public class Character : MonoBehaviour
 {
@@ -26,10 +27,11 @@ public class Character : MonoBehaviour
     public float walkSpeed = 3f;
     float t = 0;
     public LayerMask wall;
-
+    public LayerMask enemies;
     public List<Vector2> inputsArray;
     public int currentIndex = 0;
     public UnityEvent movedEvent;
+    public Tilemap tileMap;
 
 
     // Start is called before the first frame update
@@ -44,6 +46,8 @@ public class Character : MonoBehaviour
     void Update()
     {
         transform.position = Vector3.MoveTowards(transform.position, movePoint.position, walkSpeed * Time.deltaTime);
+        hitCheck();
+
 
         GlobalVariables.Timer(ref moving, ref movingTimer);
         GlobalVariables.Timer(ref idk, ref idkTimer);
@@ -100,6 +104,17 @@ public class Character : MonoBehaviour
             if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, input.y, 0f), .2f, wall)) {
                 movePoint.position += new Vector3(0f, inputsArray[currentIndex].y, 0f);
             }
+        }
+    }
+
+    void hitCheck(){
+        if (Physics2D.OverlapCircle(transform.position, .5f, enemies)) {
+            SceneManager.LoadScene("TestScene");
+        }
+        
+        TileBase tile = tileMap.GetTile(Vector3Int.FloorToInt(transform.position));
+        if(tile.name.Equals("Finish")){
+            SceneManager.LoadScene("TestScene");
         }
     }
 }
