@@ -47,7 +47,6 @@ public class Character : MonoBehaviour
     void Update()
     {
         transform.position = Vector3.MoveTowards(transform.position, movePoint.position, walkSpeed * Time.deltaTime);
-        //hitCheck();
 
 
         GlobalVariables.Timer(ref moving, ref movingTimer);
@@ -70,6 +69,9 @@ public class Character : MonoBehaviour
         }
         if (currentIndex > 0) {
             movementHelper();
+        }
+        if (Input.GetAxisRaw("Jump") == 1f) {
+            resetLevel();
         }
     }
 
@@ -109,14 +111,10 @@ public class Character : MonoBehaviour
         }
     }
 
-    // void hitCheck(){
-    //     if (Physics2D.OverlapCircle(transform.position, .5f, enemies)) {
-    //         SceneManager.LoadScene("TestScene");
-    //     }
-        
-    //     TileBase tile = tileMap.GetTile(Vector3Int.FloorToInt(transform.position));
-    //     if(tile.name.Equals("Finish")){
-    //         SceneManager.LoadScene("TestScene");
-    //     }
-    // }
+    public void resetLevel() {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+    public void goToNextLevel() {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
 }
