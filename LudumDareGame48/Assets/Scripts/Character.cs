@@ -21,6 +21,7 @@ public class Character : MonoBehaviour
     float movingTimer;
     public float walkSpeed = 3f;
     float t = 0;
+    public LayerMask wall;
 
     // Start is called before the first frame update
     void Start()
@@ -38,14 +39,18 @@ public class Character : MonoBehaviour
 
         if (Vector3.Distance(transform.position, movePoint.position) <= 0.05f && !moving){
             if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) == 1f) {
-                movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f);
-                moving = true;
-                movingTimer = 0.6f;
+                if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, wall)) {
+                    movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f);
+                    moving = true;
+                    movingTimer = 0.6f;
+                }
             }
             else if (Mathf.Abs(Input.GetAxisRaw("Vertical")) == 1f) {
-                movePoint.position += new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f);
-                moving = true;
-                movingTimer = 0.6f;
+                if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f), .2f, wall)) {
+                    movePoint.position += new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f);
+                    moving = true;
+                    movingTimer = 0.6f;
+                }
             }
         }
     }
