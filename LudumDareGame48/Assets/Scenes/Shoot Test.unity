@@ -283,6 +283,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1613230742}
+  firePoint: {fileID: 1209948426}
+  moveSpeed: 3
 --- !u!1 &1181547174
 GameObject:
   m_ObjectHideFlags: 0
@@ -377,7 +379,7 @@ GameObject:
   - component: {fileID: 1209948426}
   - component: {fileID: 1209948427}
   m_Layer: 0
-  m_Name: MovePoint
+  m_Name: firePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -550,8 +552,15 @@ MonoBehaviour:
   wall:
     serializedVersion: 2
     m_Bits: 64
+  enemies:
+    serializedVersion: 2
+    m_Bits: 0
   inputsArray: []
   currentIndex: 0
+  movedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  tileMap: {fileID: 0}
 --- !u!1 &1627804685
 GameObject:
   m_ObjectHideFlags: 0
