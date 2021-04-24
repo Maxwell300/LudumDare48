@@ -129,3 +129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movePoint: {fileID: 469796865653480717}
   walkSpeed: 3
+  wall:
+    serializedVersion: 2
+    m_Bits: 64
+  inputsArray: []
