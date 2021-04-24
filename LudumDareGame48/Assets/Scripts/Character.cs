@@ -32,6 +32,7 @@ public class Character : MonoBehaviour
     public int currentIndex = 0;
     public UnityEvent movedEvent;
     public Tilemap tileMap;
+    public MoveListUI moveListUI;
 
 
     // Start is called before the first frame update
@@ -46,15 +47,15 @@ public class Character : MonoBehaviour
     void Update()
     {
         transform.position = Vector3.MoveTowards(transform.position, movePoint.position, walkSpeed * Time.deltaTime);
-        hitCheck();
+        //hitCheck();
 
 
         GlobalVariables.Timer(ref moving, ref movingTimer);
         GlobalVariables.Timer(ref idk, ref idkTimer);
 
-        foreach (Vector2 i in inputsArray) {
-            //Debug.Log(i.x + ", " + i.y);
-        }
+        // foreach (Vector2 i in inputsArray) {
+        //     //Debug.Log(i.x + ", " + i.y);
+        // }
         input = new Vector2 (Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         if (Vector3.Distance(transform.position, movePoint.position) <= 0.05f && !moving && isAllowedToMove){
             if (Mathf.Abs(input.x) == 1f || Mathf.Abs(input.y) == 1f) {
@@ -80,6 +81,7 @@ public class Character : MonoBehaviour
         if (!idk) {
             if (currentIndex != inputsArray.Count) {
                 movement(inputsArray[currentIndex]);
+                moveListUI.MoveListUIHandler(inputsArray, currentIndex);
                 currentIndex++;
                 idk = true;
                 idkTimer = 0.6f;
@@ -107,14 +109,14 @@ public class Character : MonoBehaviour
         }
     }
 
-    void hitCheck(){
-        if (Physics2D.OverlapCircle(transform.position, .5f, enemies)) {
-            SceneManager.LoadScene("TestScene");
-        }
+    // void hitCheck(){
+    //     if (Physics2D.OverlapCircle(transform.position, .5f, enemies)) {
+    //         SceneManager.LoadScene("TestScene");
+    //     }
         
-        TileBase tile = tileMap.GetTile(Vector3Int.FloorToInt(transform.position));
-        if(tile.name.Equals("Finish")){
-            SceneManager.LoadScene("TestScene");
-        }
-    }
+    //     TileBase tile = tileMap.GetTile(Vector3Int.FloorToInt(transform.position));
+    //     if(tile.name.Equals("Finish")){
+    //         SceneManager.LoadScene("TestScene");
+    //     }
+    // }
 }
