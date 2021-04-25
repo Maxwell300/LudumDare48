@@ -31,7 +31,6 @@ public class Character : MonoBehaviour
     public List<Vector2> inputsArray;
     public int currentIndex = 0;
     public UnityEvent movedEvent;
-    public Tilemap tileMap;
     public MoveListUI moveListUI;
 
 
