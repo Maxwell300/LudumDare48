@@ -21,7 +21,7 @@ public class Character : MonoBehaviour
     Vector3 endPos;
     bool isAllowedToMove = true;
     bool idk = true;
-    float idkTimer = 0.6f;
+    float idkTimer = 0.5f;
     public bool moving = false;
     float movingTimer;
     public float walkSpeed = 3f;
@@ -49,20 +49,16 @@ public class Character : MonoBehaviour
     {
         transform.position = Vector3.MoveTowards(transform.position, movePoint.position, walkSpeed * Time.deltaTime);
 
-
         GlobalVariables.Timer(ref moving, ref movingTimer);
         GlobalVariables.Timer(ref idk, ref idkTimer);
 
-        // foreach (Vector2 i in inputsArray) {
-        //     //Debug.Log(i.x + ", " + i.y);
-        // }
         input = new Vector2 (Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         if (Vector3.Distance(transform.position, movePoint.position) <= 0.05f && !moving && isAllowedToMove){
             if (Mathf.Abs(input.x) == 1f || Mathf.Abs(input.y) == 1f) {
                 currentIndex = 0;
                 inputsArray.Add(input);
                 moving = true;
-                movingTimer = 0.6f * (inputsArray.Count + 1);
+                movingTimer = 0.5f * (inputsArray.Count);
                 isAllowedToMove = false;
                 idk = false;
                 movementHelper();
@@ -91,7 +87,7 @@ public class Character : MonoBehaviour
                 moveListUI.MoveListUIHandler(inputsArray, currentIndex);
                 currentIndex++;
                 idk = true;
-                idkTimer = 0.6f;
+                idkTimer = 0.5f;
                 movedEvent.Invoke();
             } 
             else if ( currentIndex == inputsArray.Count) {
