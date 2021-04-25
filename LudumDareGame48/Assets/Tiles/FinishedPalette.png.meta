@@ -274,10 +274,10 @@ TextureImporter:
       name: FinishedPalette_0
       rect:
         serializedVersion: 2
-        x: 264
-        y: 2149
-        width: 271
-        height: 272
+        x: 265
+        y: 2150
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -295,10 +295,10 @@ TextureImporter:
       name: FinishedPalette_1
       rect:
         serializedVersion: 2
-        x: 554
-        y: 2149
-        width: 271
-        height: 272
+        x: 555
+        y: 2150
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -317,9 +317,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 845
-        y: 2149
-        width: 272
-        height: 272
+        y: 2150
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -337,10 +337,10 @@ TextureImporter:
       name: FinishedPalette_3
       rect:
         serializedVersion: 2
-        x: 1136
-        y: 2149
-        width: 273
-        height: 272
+        x: 1135
+        y: 2150
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -358,10 +358,10 @@ TextureImporter:
       name: FinishedPalette_4
       rect:
         serializedVersion: 2
-        x: 1427
-        y: 2149
-        width: 272
-        height: 272
+        x: 1425
+        y: 2150
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -379,10 +379,10 @@ TextureImporter:
       name: FinishedPalette_5
       rect:
         serializedVersion: 2
-        x: 1717
-        y: 2149
-        width: 273
-        height: 272
+        x: 1715
+        y: 2150
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -400,10 +400,10 @@ TextureImporter:
       name: FinishedPalette_6
       rect:
         serializedVersion: 2
-        x: 2009
-        y: 2149
-        width: 272
-        height: 272
+        x: 2005
+        y: 2150
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -421,10 +421,10 @@ TextureImporter:
       name: FinishedPalette_7
       rect:
         serializedVersion: 2
-        x: 264
-        y: 1861
-        width: 271
-        height: 272
+        x: 265
+        y: 1862
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -442,10 +442,10 @@ TextureImporter:
       name: FinishedPalette_8
       rect:
         serializedVersion: 2
-        x: 554
-        y: 1861
-        width: 271
-        height: 272
+        x: 555
+        y: 1862
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -464,9 +464,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 845
-        y: 1861
-        width: 272
-        height: 272
+        y: 1862
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -484,10 +484,10 @@ TextureImporter:
       name: FinishedPalette_10
       rect:
         serializedVersion: 2
-        x: 1136
-        y: 1861
-        width: 273
-        height: 272
+        x: 1135
+        y: 1862
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -505,10 +505,10 @@ TextureImporter:
       name: FinishedPalette_11
       rect:
         serializedVersion: 2
-        x: 1427
-        y: 1861
-        width: 272
-        height: 272
+        x: 1425
+        y: 1862
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -526,10 +526,10 @@ TextureImporter:
       name: FinishedPalette_12
       rect:
         serializedVersion: 2
-        x: 1760
-        y: 1903
-        width: 188
-        height: 188
+        x: 1715
+        y: 1862
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,10 +547,10 @@ TextureImporter:
       name: FinishedPalette_13
       rect:
         serializedVersion: 2
-        x: 264
-        y: 1573
-        width: 271
-        height: 273
+        x: 265
+        y: 1574
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -568,10 +568,10 @@ TextureImporter:
       name: FinishedPalette_14
       rect:
         serializedVersion: 2
-        x: 554
-        y: 1573
-        width: 271
-        height: 273
+        x: 555
+        y: 1574
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -590,9 +590,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 845
-        y: 1573
-        width: 272
-        height: 273
+        y: 1574
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -610,10 +610,10 @@ TextureImporter:
       name: FinishedPalette_16
       rect:
         serializedVersion: 2
-        x: 1136
-        y: 1573
-        width: 273
-        height: 273
+        x: 1135
+        y: 1574
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -631,10 +631,10 @@ TextureImporter:
       name: FinishedPalette_17
       rect:
         serializedVersion: 2
-        x: 1427
-        y: 1573
-        width: 272
-        height: 273
+        x: 1425
+        y: 1574
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -652,10 +652,10 @@ TextureImporter:
       name: FinishedPalette_18
       rect:
         serializedVersion: 2
-        x: 1717
-        y: 1573
-        width: 273
-        height: 273
+        x: 1715
+        y: 1574
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -673,10 +673,10 @@ TextureImporter:
       name: FinishedPalette_19
       rect:
         serializedVersion: 2
-        x: 264
-        y: 1285
-        width: 271
-        height: 272
+        x: 265
+        y: 1286
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -694,10 +694,10 @@ TextureImporter:
       name: FinishedPalette_20
       rect:
         serializedVersion: 2
-        x: 571
-        y: 1285
-        width: 254
-        height: 265
+        x: 555
+        y: 1286
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -716,9 +716,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 845
-        y: 1285
-        width: 272
-        height: 272
+        y: 1286
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -736,10 +736,10 @@ TextureImporter:
       name: FinishedPalette_22
       rect:
         serializedVersion: 2
-        x: 1136
-        y: 1285
-        width: 273
-        height: 272
+        x: 1135
+        y: 1286
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -757,10 +757,10 @@ TextureImporter:
       name: FinishedPalette_23
       rect:
         serializedVersion: 2
-        x: 1427
-        y: 1285
-        width: 272
-        height: 272
+        x: 1425
+        y: 1286
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -778,10 +778,10 @@ TextureImporter:
       name: FinishedPalette_24
       rect:
         serializedVersion: 2
-        x: 1717
-        y: 1285
-        width: 273
-        height: 272
+        x: 1715
+        y: 1286
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -799,10 +799,10 @@ TextureImporter:
       name: FinishedPalette_25
       rect:
         serializedVersion: 2
-        x: 2009
-        y: 1285
-        width: 272
-        height: 272
+        x: 2005
+        y: 1286
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -820,10 +820,10 @@ TextureImporter:
       name: FinishedPalette_26
       rect:
         serializedVersion: 2
-        x: 264
-        y: 997
-        width: 271
-        height: 272
+        x: 265
+        y: 998
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -841,10 +841,10 @@ TextureImporter:
       name: FinishedPalette_27
       rect:
         serializedVersion: 2
-        x: 554
-        y: 997
-        width: 271
-        height: 272
+        x: 555
+        y: 998
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -863,9 +863,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 845
-        y: 997
-        width: 272
-        height: 272
+        y: 998
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -883,10 +883,10 @@ TextureImporter:
       name: FinishedPalette_29
       rect:
         serializedVersion: 2
-        x: 1136
-        y: 997
-        width: 273
-        height: 272
+        x: 1135
+        y: 998
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -904,10 +904,10 @@ TextureImporter:
       name: FinishedPalette_30
       rect:
         serializedVersion: 2
-        x: 1427
-        y: 997
-        width: 272
-        height: 272
+        x: 1425
+        y: 998
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -925,10 +925,10 @@ TextureImporter:
       name: FinishedPalette_31
       rect:
         serializedVersion: 2
-        x: 1717
-        y: 997
-        width: 273
-        height: 272
+        x: 1715
+        y: 998
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -946,10 +946,10 @@ TextureImporter:
       name: FinishedPalette_32
       rect:
         serializedVersion: 2
-        x: 264
-        y: 708
-        width: 271
-        height: 273
+        x: 265
+        y: 710
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -967,10 +967,10 @@ TextureImporter:
       name: FinishedPalette_33
       rect:
         serializedVersion: 2
-        x: 554
-        y: 708
-        width: 271
-        height: 273
+        x: 555
+        y: 710
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -988,10 +988,10 @@ TextureImporter:
       name: FinishedPalette_34
       rect:
         serializedVersion: 2
-        x: 837
-        y: 708
-        width: 272
-        height: 273
+        x: 845
+        y: 710
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1009,10 +1009,10 @@ TextureImporter:
       name: FinishedPalette_35
       rect:
         serializedVersion: 2
-        x: 1136
-        y: 708
-        width: 273
-        height: 273
+        x: 1135
+        y: 710
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1030,10 +1030,10 @@ TextureImporter:
       name: FinishedPalette_36
       rect:
         serializedVersion: 2
-        x: 1427
-        y: 708
-        width: 272
-        height: 273
+        x: 1425
+        y: 710
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1051,10 +1051,10 @@ TextureImporter:
       name: FinishedPalette_37
       rect:
         serializedVersion: 2
-        x: 1717
-        y: 708
-        width: 273
-        height: 273
+        x: 1715
+        y: 710
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1072,10 +1072,10 @@ TextureImporter:
       name: FinishedPalette_38
       rect:
         serializedVersion: 2
-        x: 2009
-        y: 708
-        width: 272
-        height: 273
+        x: 2005
+        y: 710
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1093,10 +1093,10 @@ TextureImporter:
       name: FinishedPalette_39
       rect:
         serializedVersion: 2
-        x: 264
-        y: 421
-        width: 271
-        height: 271
+        x: 265
+        y: 422
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1114,10 +1114,10 @@ TextureImporter:
       name: FinishedPalette_40
       rect:
         serializedVersion: 2
-        x: 554
-        y: 421
-        width: 271
-        height: 271
+        x: 555
+        y: 422
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1136,9 +1136,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 845
-        y: 421
-        width: 272
-        height: 271
+        y: 422
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1156,10 +1156,10 @@ TextureImporter:
       name: FinishedPalette_42
       rect:
         serializedVersion: 2
-        x: 1136
-        y: 421
-        width: 273
-        height: 271
+        x: 1135
+        y: 422
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1177,10 +1177,10 @@ TextureImporter:
       name: FinishedPalette_43
       rect:
         serializedVersion: 2
-        x: 1427
-        y: 421
-        width: 272
-        height: 271
+        x: 1425
+        y: 422
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1198,10 +1198,10 @@ TextureImporter:
       name: FinishedPalette_44
       rect:
         serializedVersion: 2
-        x: 1717
-        y: 421
-        width: 273
-        height: 271
+        x: 1715
+        y: 422
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1219,10 +1219,10 @@ TextureImporter:
       name: FinishedPalette_45
       rect:
         serializedVersion: 2
-        x: 2009
-        y: 421
-        width: 272
-        height: 271
+        x: 2005
+        y: 422
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1240,10 +1240,10 @@ TextureImporter:
       name: FinishedPalette_46
       rect:
         serializedVersion: 2
-        x: 264
-        y: 133
-        width: 271
-        height: 272
+        x: 265
+        y: 134
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1261,10 +1261,10 @@ TextureImporter:
       name: FinishedPalette_47
       rect:
         serializedVersion: 2
-        x: 554
-        y: 133
-        width: 271
-        height: 272
+        x: 555
+        y: 134
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1283,9 +1283,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 845
-        y: 133
-        width: 272
-        height: 272
+        y: 134
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1303,10 +1303,10 @@ TextureImporter:
       name: FinishedPalette_49
       rect:
         serializedVersion: 2
-        x: 1136
-        y: 133
-        width: 273
-        height: 272
+        x: 1135
+        y: 134
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1324,10 +1324,10 @@ TextureImporter:
       name: FinishedPalette_50
       rect:
         serializedVersion: 2
-        x: 1427
-        y: 133
-        width: 272
-        height: 272
+        x: 1425
+        y: 134
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1345,10 +1345,10 @@ TextureImporter:
       name: FinishedPalette_51
       rect:
         serializedVersion: 2
-        x: 1717
-        y: 133
-        width: 273
-        height: 272
+        x: 1715
+        y: 134
+        width: 269
+        height: 270
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -4952,6 +4952,7 @@ MonoBehaviour:
       m_Calls: []
   moveListUI: {fileID: 0}
   bubblesEffect: {fileID: 3839301025939816834}
+  audioSource: {fileID: 7440308021808901854, guid: 37ff5ee39d8e7a747bd37c98d8abf2ef, type: 3}
 --- !u!50 &172995325
 Rigidbody2D:
   serializedVersion: 4
