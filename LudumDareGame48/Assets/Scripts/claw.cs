@@ -6,14 +6,24 @@ public class claw : MonoBehaviour
 {
 
     public Animator animator;
+    public float deathdelay = 10f;
+    bool dead = false;
+    Character character;
 
-    // Update is called once per frame
     void Update()
     {
-        if(Input.GetButtonDown("Cancel")){
-            animator.SetBool("clawAttack", true); 
-            Debug.Log("AWDHUAWNFUIWAFNIO");      
+        GlobalVariables.Timer(ref dead, ref deathdelay);
+
+        if(!dead && deathdelay <= 0){
+            character.resetLevel();
         }
-  
+    }
+
+    void OnTriggerEnter2D (Collider2D other) {      // Trigger animation and delay for death
+        character = other.GetComponent<Character>();
+        if (character != null) {
+            dead = true;
+            animator.SetBool("clawAttack", true);
+        }
     }
 }
