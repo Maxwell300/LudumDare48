@@ -33,6 +33,7 @@ public class Character : MonoBehaviour
     public UnityEvent movedEvent;
     public MoveListUI moveListUI;
     public ParticleSystem bubblesEffect;
+    public AudioSource audioSource;
 
 
     // Start is called before the first frame update
@@ -42,6 +43,7 @@ public class Character : MonoBehaviour
         movePoint.parent = null;
         inputsArray = new List<Vector2>();
         bubblesEffect.enableEmission = false;
+        audioSource.time = GlobalVariables.timeInAudio;
     }
     
     // Update is called once per frame
@@ -115,9 +117,11 @@ public class Character : MonoBehaviour
     }
 
     public void resetLevel() {
+        GlobalVariables.timeInAudio = audioSource.time;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
     public void goToNextLevel() {
+        GlobalVariables.timeInAudio = audioSource.time;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
