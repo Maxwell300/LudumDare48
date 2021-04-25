@@ -6,6 +6,7 @@ public class PauseMenu : MonoBehaviour
 {
     public static bool Paused = false;
     public GameObject pauseUI;
+    public AudioSource audioSource;
 
     void Update()
     {
@@ -32,6 +33,7 @@ public class PauseMenu : MonoBehaviour
     }
 
     public void MainMenu() {
+        GlobalVariables.timeInAudio = audioSource.time;
         SceneManager.LoadScene(0);
     }
 }
