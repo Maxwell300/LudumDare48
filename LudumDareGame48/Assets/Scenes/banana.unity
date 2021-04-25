@@ -279,6 +279,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1294751293084338753, guid: c078dd4795f85f04f8d1e251ad9f0d95, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.1234599
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294751293084338753, guid: c078dd4795f85f04f8d1e251ad9f0d95, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.1234599
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294751293084338753, guid: c078dd4795f85f04f8d1e251ad9f0d95, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.1234599
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294751293084338753, guid: c078dd4795f85f04f8d1e251ad9f0d95, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -819
+      objectReference: {fileID: 0}
+    - target: {fileID: 1294751293084338753, guid: c078dd4795f85f04f8d1e251ad9f0d95, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 425
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c078dd4795f85f04f8d1e251ad9f0d95, type: 3}
 --- !u!224 &230044645 stripped
@@ -400,10 +420,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -470,23 +490,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4935620158457419698, guid: d9ce429377841b74e922956cc6b52e7f, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.4107774
+      value: 0.77442384
       objectReference: {fileID: 0}
     - target: {fileID: 4935620158457419698, guid: d9ce429377841b74e922956cc6b52e7f, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.4107774
+      value: 0.77442384
       objectReference: {fileID: 0}
     - target: {fileID: 4935620158457419698, guid: d9ce429377841b74e922956cc6b52e7f, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.4107774
+      value: 0.77442384
       objectReference: {fileID: 0}
     - target: {fileID: 4935620158457419698, guid: d9ce429377841b74e922956cc6b52e7f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 284.71
+      value: 566
       objectReference: {fileID: 0}
     - target: {fileID: 4935620158457419698, guid: d9ce429377841b74e922956cc6b52e7f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -82.716
+      value: -131
       objectReference: {fileID: 0}
     - target: {fileID: 4935620158457419698, guid: d9ce429377841b74e922956cc6b52e7f, type: 3}
       propertyPath: m_LocalPosition.z
