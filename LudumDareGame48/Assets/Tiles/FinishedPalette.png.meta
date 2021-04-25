@@ -1,0 +1,1380 @@
+fileFormatVersion: 2
+guid: 19e649dda663c3247918972029694200
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2751581886909613252
+    second: FinishedPalette_0
+  - first:
+      213: -6113607875183201288
+    second: FinishedPalette_1
+  - first:
+      213: 879946699825030278
+    second: FinishedPalette_2
+  - first:
+      213: 1919353525001781129
+    second: FinishedPalette_3
+  - first:
+      213: -4849315147417746390
+    second: FinishedPalette_4
+  - first:
+      213: 875305237376148139
+    second: FinishedPalette_5
+  - first:
+      213: -8190787784332848444
+    second: FinishedPalette_6
+  - first:
+      213: 5302128824212912272
+    second: FinishedPalette_7
+  - first:
+      213: -701317728663786022
+    second: FinishedPalette_8
+  - first:
+      213: -2871728808610077920
+    second: FinishedPalette_9
+  - first:
+      213: -1222845106767950900
+    second: FinishedPalette_10
+  - first:
+      213: -5401561263632811259
+    second: FinishedPalette_11
+  - first:
+      213: 4654899479148014571
+    second: FinishedPalette_12
+  - first:
+      213: 4551100324711269757
+    second: FinishedPalette_13
+  - first:
+      213: 8163493189018226258
+    second: FinishedPalette_14
+  - first:
+      213: 2279915607620486179
+    second: FinishedPalette_15
+  - first:
+      213: 7008050775671971714
+    second: FinishedPalette_16
+  - first:
+      213: -2353990733716766706
+    second: FinishedPalette_17
+  - first:
+      213: 5264935369166228724
+    second: FinishedPalette_18
+  - first:
+      213: -5461720769731723678
+    second: FinishedPalette_19
+  - first:
+      213: 287648447207159290
+    second: FinishedPalette_20
+  - first:
+      213: 7221915717160348955
+    second: FinishedPalette_21
+  - first:
+      213: 7726027992619567511
+    second: FinishedPalette_22
+  - first:
+      213: 3464244072859574158
+    second: FinishedPalette_23
+  - first:
+      213: -7110425844829440354
+    second: FinishedPalette_24
+  - first:
+      213: 321097977684682109
+    second: FinishedPalette_25
+  - first:
+      213: 6059267441066483076
+    second: FinishedPalette_26
+  - first:
+      213: -3561858122126705155
+    second: FinishedPalette_27
+  - first:
+      213: -7867126911968613437
+    second: FinishedPalette_28
+  - first:
+      213: 5143790144774167507
+    second: FinishedPalette_29
+  - first:
+      213: -7820926075990470971
+    second: FinishedPalette_30
+  - first:
+      213: -8774436159087441603
+    second: FinishedPalette_31
+  - first:
+      213: -1123438469579831372
+    second: FinishedPalette_32
+  - first:
+      213: -2438050775879340909
+    second: FinishedPalette_33
+  - first:
+      213: -1178436832472506585
+    second: FinishedPalette_34
+  - first:
+      213: -6748902428278147582
+    second: FinishedPalette_35
+  - first:
+      213: -1815949110345891355
+    second: FinishedPalette_36
+  - first:
+      213: -6016972481542346771
+    second: FinishedPalette_37
+  - first:
+      213: 5207702354839720007
+    second: FinishedPalette_38
+  - first:
+      213: -3780984579973292023
+    second: FinishedPalette_39
+  - first:
+      213: 7544573820113855306
+    second: FinishedPalette_40
+  - first:
+      213: 4558795567053836409
+    second: FinishedPalette_41
+  - first:
+      213: 8767797089999565753
+    second: FinishedPalette_42
+  - first:
+      213: -1150105014605704037
+    second: FinishedPalette_43
+  - first:
+      213: -4363890794844637605
+    second: FinishedPalette_44
+  - first:
+      213: -4657457667076610900
+    second: FinishedPalette_45
+  - first:
+      213: 5928174600045373526
+    second: FinishedPalette_46
+  - first:
+      213: -4708462792246500875
+    second: FinishedPalette_47
+  - first:
+      213: 2094158731587493464
+    second: FinishedPalette_48
+  - first:
+      213: -8491468205049749497
+    second: FinishedPalette_49
+  - first:
+      213: 6391143216763599387
+    second: FinishedPalette_50
+  - first:
+      213: 1978619425243560844
+    second: FinishedPalette_51
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 270
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FinishedPalette_0
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 2149
+        width: 271
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b7a543ada60d9d0800000000000000
+      internalID: -2751581886909613252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_1
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 2149
+        width: 271
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3bcaf570a182ba0800000000000000
+      internalID: -6113607875183201288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_2
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 2149
+        width: 272
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68429508cd2363c00800000000000000
+      internalID: 879946699825030278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_3
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 2149
+        width: 273
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98fff10acd9e2aa10800000000000000
+      internalID: 1919353525001781129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_4
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 2149
+        width: 272
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a248e32f095c3bcb0800000000000000
+      internalID: -4849315147417746390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_5
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 2149
+        width: 273
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba228dfc975b52c00800000000000000
+      internalID: 875305237376148139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_6
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 2149
+        width: 272
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c25b3428e9745e80800000000000000
+      internalID: -8190787784332848444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_7
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1861
+        width: 271
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098f190e212f49940800000000000000
+      internalID: 5302128824212912272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_8
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1861
+        width: 271
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addaf44dd3b6446f0800000000000000
+      internalID: -701317728663786022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_9
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 1861
+        width: 272
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0236a871dd19528d0800000000000000
+      internalID: -2871728808610077920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_10
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 1861
+        width: 273
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb85c3bad4970fe0800000000000000
+      internalID: -1222845106767950900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_11
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 1861
+        width: 272
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50bf7a046acc905b0800000000000000
+      internalID: -5401561263632811259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_12
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1903
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beba4cfd966899040800000000000000
+      internalID: 4654899479148014571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_13
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1573
+        width: 271
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75849fe1a1c82f30800000000000000
+      internalID: 4551100324711269757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_14
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1573
+        width: 271
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e80c9adcd8a4170800000000000000
+      internalID: 8163493189018226258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_15
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 1573
+        width: 272
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32486166a23e3af10800000000000000
+      internalID: 2279915607620486179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_16
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 1573
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f14dbdc09914160800000000000000
+      internalID: 7008050775671971714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_17
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 1573
+        width: 272
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00404056e1f45fd0800000000000000
+      internalID: -2353990733716766706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_18
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 1573
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc0b8cc2dec01940800000000000000
+      internalID: 5264935369166228724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_19
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1285
+        width: 271
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e74c9b5e11434b0800000000000000
+      internalID: -5461720769731723678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_20
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1285
+        width: 254
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5b9fb1dbeedf300800000000000000
+      internalID: 287648447207159290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_21
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 1285
+        width: 272
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d2727d416693460800000000000000
+      internalID: 7221915717160348955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_22
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 1285
+        width: 273
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79940d8668d583b60800000000000000
+      internalID: 7726027992619567511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_23
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 1285
+        width: 272
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f1c0241a7731030800000000000000
+      internalID: 3464244072859574158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_24
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 1285
+        width: 273
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e963f25ed51b25d90800000000000000
+      internalID: -7110425844829440354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_25
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 1285
+        width: 272
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75edf1d8e4c47400800000000000000
+      internalID: 321097977684682109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_26
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 997
+        width: 271
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d9bdf52a7d61450800000000000000
+      internalID: 6059267441066483076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_27
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 997
+        width: 271
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd3c42d8ecb19ec0800000000000000
+      internalID: -3561858122126705155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_28
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 997
+        width: 272
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbe13161c952d290800000000000000
+      internalID: -7867126911968613437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_29
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 997
+        width: 273
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db5b6a32e9626740800000000000000
+      internalID: 5143790144774167507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_30
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 997
+        width: 272
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce8ff1cb2d767390800000000000000
+      internalID: -7820926075990470971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_31
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 997
+        width: 273
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3900416dc0fa3680800000000000000
+      internalID: -8774436159087441603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_32
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 708
+        width: 271
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b78fa50aaeb860f0800000000000000
+      internalID: -1123438469579831372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_33
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 708
+        width: 271
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ca8579cbd4a2ed0800000000000000
+      internalID: -2438050775879340909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_34
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 708
+        width: 272
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f5d3ac1f955afe0800000000000000
+      internalID: -1178436832472506585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_35
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 708
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206b5baaff41752a0800000000000000
+      internalID: -6748902428278147582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_36
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 708
+        width: 272
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e185abc7e37cc6e0800000000000000
+      internalID: -1815949110345891355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_37
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 708
+        width: 273
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de72e56486b6f7ca0800000000000000
+      internalID: -6016972481542346771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_38
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 708
+        width: 272
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740df2c33b9754840800000000000000
+      internalID: 5207702354839720007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_39
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 421
+        width: 271
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90066799e8e378bc0800000000000000
+      internalID: -3780984579973292023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_40
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 421
+        width: 271
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a432991aae5b3b860800000000000000
+      internalID: 7544573820113855306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_41
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 421
+        width: 272
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9709ed92a68144f30800000000000000
+      internalID: 4558795567053836409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_42
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 421
+        width: 273
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3b024eff87da970800000000000000
+      internalID: 8767797089999565753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_43
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 421
+        width: 272
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94180e25910a00f0800000000000000
+      internalID: -1150105014605704037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_44
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 421
+        width: 273
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5630b661785073c0800000000000000
+      internalID: -4363890794844637605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_45
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 421
+        width: 272
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4aa759de26d5fb0800000000000000
+      internalID: -4657457667076610900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_46
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 133
+        width: 271
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658a232d36b154250800000000000000
+      internalID: 5928174600045373526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_47
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 133
+        width: 271
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1e006790e28aeb0800000000000000
+      internalID: -4708462792246500875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_48
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 133
+        width: 272
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e1e836542ff0d10800000000000000
+      internalID: 2094158731587493464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_49
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 133
+        width: 273
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7006c7048ae382a80800000000000000
+      internalID: -8491468205049749497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_50
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 133
+        width: 272
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a77d7d4e6e1b850800000000000000
+      internalID: 6391143216763599387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FinishedPalette_51
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 133
+        width: 273
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b745352e7757b10800000000000000
+      internalID: 1978619425243560844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
