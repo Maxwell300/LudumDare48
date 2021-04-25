@@ -32,6 +32,7 @@ public class Character : MonoBehaviour
     public int currentIndex = 0;
     public UnityEvent movedEvent;
     public MoveListUI moveListUI;
+    public ParticleSystem bubblesEffect;
 
 
     // Start is called before the first frame update
@@ -40,6 +41,7 @@ public class Character : MonoBehaviour
         rigidBody2D = GetComponent<Rigidbody2D>();
         movePoint.parent = null;
         inputsArray = new List<Vector2>();
+        bubblesEffect.enableEmission = false;
     }
     
     // Update is called once per frame
@@ -72,6 +74,10 @@ public class Character : MonoBehaviour
         if (Input.GetAxisRaw("Jump") == 1f) {
             resetLevel();
         }
+
+        if (!moving) {
+            bubblesEffect.enableEmission = false;
+        }
     }
 
     void FixedUpdate() {
@@ -101,11 +107,13 @@ public class Character : MonoBehaviour
         if (Mathf.Abs(input.x) == 1f) {
             if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(input.x, 0f, 0f), .2f, wall)) {
                 movePoint.position += new Vector3(inputsArray[currentIndex].x, 0f, 0f);
+                bubblesEffect.enableEmission = true;
             }
         }
         else if (Mathf.Abs(input.y) == 1f) {
             if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, input.y, 0f), .2f, wall)) {
                 movePoint.position += new Vector3(0f, inputsArray[currentIndex].y, 0f);
+                bubblesEffect.enableEmission = true;
             }
         }
     }
