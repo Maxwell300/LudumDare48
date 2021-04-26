@@ -54,6 +54,7 @@ public class Character : MonoBehaviour
         GlobalVariables.Timer(ref moving, ref movingTimer);
         GlobalVariables.Timer(ref idk, ref idkTimer);
 
+
         input = new Vector2 (Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         if (Vector3.Distance(transform.position, movePoint.position) <= 0.05f && !moving && isAllowedToMove){
             if (Mathf.Abs(input.x) == 1f || Mathf.Abs(input.y) == 1f) {
@@ -95,6 +96,9 @@ public class Character : MonoBehaviour
 
     void movementHelper() {
         if (!idk) {
+            if (currentIndex > 9) {
+                resetLevel();
+            }
             if (currentIndex != inputsArray.Count) {
                 movement(inputsArray[currentIndex]);
                 moveListUI.MoveListUIHandler(inputsArray, currentIndex);
