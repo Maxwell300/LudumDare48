@@ -33,17 +33,17 @@ EditorBuildSettings:
     path: Assets/Scenes/lore3.unity
     guid: b04a2712bb2d7034f877274c0a02f2be
   - enabled: 1
+    path: Assets/Scenes/banana.unity
+    guid: 20462b8333dd0f64c88f71be690c17d5
+  - enabled: 1
     path: Assets/Scenes/topHat.unity
     guid: 15942c5abb315f14f88a3233ac0a6d92
-  - enabled: 1
-    path: Assets/Scenes/ET.unity
-    guid: a81504ff6bddd5c4aaf3edcfa2d6e992
   - enabled: 1
     path: Assets/Scenes/lore4.unity
     guid: 058e71334f13b8f44b2db95c4d01f021
   - enabled: 1
-    path: Assets/Scenes/banana.unity
-    guid: 20462b8333dd0f64c88f71be690c17d5
+    path: Assets/Scenes/ET.unity
+    guid: a81504ff6bddd5c4aaf3edcfa2d6e992
   - enabled: 1
     path: Assets/Scenes/TestScene.unity
     guid: dcbcb42d62c740c459c269ec29e775ff
@@ -71,6 +71,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/rng.unity
     guid: 1d70a799a6f04aa4e85ee15e62a3f769
+  - enabled: 1
+    path: Assets/Scenes/goDeeper.unity
+    guid: 0c39a61144f0cb74dba84176002f84b9
   - enabled: 1
     path: Assets/Scenes/Buildup.unity
     guid: 4f6f33b203b36674b9ce3691c453b2db
