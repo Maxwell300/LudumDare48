@@ -20,11 +20,11 @@ public class Character : MonoBehaviour
     Vector2 input;
     Vector3 startPos;
     Vector3 endPos;
-    bool isAllowedToMove = true;
-    bool idk = true;
-    float idkTimer = 0.5f;
+    public bool isAllowedToMove = true;
+    public bool idk = false;
+    public float idkTimer;
     public bool moving = false;
-    float movingTimer;
+    public float movingTimer;
     public float walkSpeed = 3f;
     float t = 0;
     public LayerMask wall;
@@ -63,6 +63,7 @@ public class Character : MonoBehaviour
                 movingTimer = 0.5f * (inputsArray.Count);
                 isAllowedToMove = false;
                 idk = false;
+                idkTimer = 0.5f;
                 movementHelper();
             }
         }
@@ -84,7 +85,6 @@ public class Character : MonoBehaviour
             Animator.SetBool("moveUp", false);
 
             Animator.SetBool("moveDown", false);
-            Debug.Log("Turned off bools");
 
         }
     }
