@@ -105,10 +105,6 @@ public class Character : MonoBehaviour
                 currentIndex++;
                 idk = true;
                 idkTimer = 0.5f;
-<<<<<<< HEAD
-               
-=======
->>>>>>> 36fa42b929871a7f88038c9902cdc8fe067b405e
             } 
             else if ( currentIndex == inputsArray.Count) {
                 isAllowedToMove = true;
