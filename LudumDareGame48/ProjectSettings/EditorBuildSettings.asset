@@ -12,11 +12,17 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/beforeLevel1.unity
+    guid: 758bec3bc39c5644cacb51583d15b08d
+  - enabled: 1
     path: Assets/Scenes/easy1.unity
     guid: c457b0635b4e4da40a876f19dfd590ac
   - enabled: 1
     path: Assets/Scenes/Walk_the_plank.unity
     guid: 6ca6b0f596a091d45bb382db2ec408d0
+  - enabled: 1
+    path: Assets/Scenes/lore2.unity
+    guid: 16a7c5ef1a992c04f8f660f20e529ff1
   - enabled: 1
     path: Assets/Scenes/small.unity
     guid: 3ab4d8441728c744a80263886c6834ae
@@ -24,11 +30,17 @@ EditorBuildSettings:
     path: Assets/Scenes/skull.unity
     guid: fbe554b1c4b814d4b9cc8b83a4ab154e
   - enabled: 1
+    path: Assets/Scenes/lore3.unity
+    guid: b04a2712bb2d7034f877274c0a02f2be
+  - enabled: 1
     path: Assets/Scenes/topHat.unity
     guid: 15942c5abb315f14f88a3233ac0a6d92
   - enabled: 1
     path: Assets/Scenes/ET.unity
     guid: a81504ff6bddd5c4aaf3edcfa2d6e992
+  - enabled: 1
+    path: Assets/Scenes/lore4.unity
+    guid: 058e71334f13b8f44b2db95c4d01f021
   - enabled: 1
     path: Assets/Scenes/banana.unity
     guid: 20462b8333dd0f64c88f71be690c17d5
@@ -36,8 +48,17 @@ EditorBuildSettings:
     path: Assets/Scenes/TestScene.unity
     guid: dcbcb42d62c740c459c269ec29e775ff
   - enabled: 1
+    path: Assets/Scenes/lore5.unity
+    guid: 39fa9ca8b2a276040b021599cf35507e
+  - enabled: 1
     path: Assets/Scenes/So Close.unity
     guid: b2eb102bd0cf19446a6639e710e948c3
+  - enabled: 1
+    path: Assets/Scenes/buffer.unity
+    guid: 163eb63f426939c498bae8f7666d7141
+  - enabled: 1
+    path: Assets/Scenes/lore6.unity
+    guid: 6fcd271d5a8c0554ebd36f58fc06a51c
   - enabled: 1
     path: Assets/Scenes/konami.unity
     guid: 6e1c15e385643c346b0bccd002ab1af0
@@ -45,9 +66,18 @@ EditorBuildSettings:
     path: Assets/Scenes/max.unity
     guid: 06b95fca739384e4c8c6f61a80a28b63
   - enabled: 1
+    path: Assets/Scenes/lore7.unity
+    guid: 09bb6dae9514d2a44a8070fd0d6caf1e
+  - enabled: 1
     path: Assets/Scenes/rng.unity
     guid: 1d70a799a6f04aa4e85ee15e62a3f769
   - enabled: 1
+    path: Assets/Scenes/Buildup.unity
+    guid: 4f6f33b203b36674b9ce3691c453b2db
+  - enabled: 0
     path: Assets/Scenes/Win.unity
     guid: e1fb6445902f47646b81747a6d37e465
+  - enabled: 1
+    path: Assets/Scenes/lore8.unity
+    guid: f2f03748983eeaf44b8a754c38c55e8d
   m_configObjects: {}
