@@ -36,7 +36,7 @@ public class Character : MonoBehaviour
     public AudioSource audioSource;
 
 
-    // Start is called before the first frame update
+    // Start is called before the first frame update fdajsfkdl
     void Start()
     {
         rigidBody2D = GetComponent<Rigidbody2D>();
