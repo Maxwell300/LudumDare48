@@ -258,6 +258,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 082be6a65f134a94c82b9544a77fd9c9, type: 3}
+--- !u!82 &591803623 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7440308021808901854, guid: 37ff5ee39d8e7a747bd37c98d8abf2ef, type: 3}
+  m_PrefabInstance: {fileID: 1835988580}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &647994885
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -353,6 +358,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseObject Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 4216890560129113452, guid: b2bea35944583b848a18fb6c974b873b, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 591803623}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2bea35944583b848a18fb6c974b873b, type: 3}
 --- !u!114 &685637391 stripped
