@@ -72,6 +72,9 @@ EditorBuildSettings:
     path: Assets/Scenes/rng.unity
     guid: 1d70a799a6f04aa4e85ee15e62a3f769
   - enabled: 1
+    path: Assets/Scenes/goDeeper.unity
+    guid: 0c39a61144f0cb74dba84176002f84b9
+  - enabled: 1
     path: Assets/Scenes/Buildup.unity
     guid: 4f6f33b203b36674b9ce3691c453b2db
   - enabled: 1
