@@ -76,6 +76,17 @@ public class Character : MonoBehaviour
 
         if (!moving) {
             bubblesEffect.enableEmission = false;
+
+            //Change animations back to idle
+            Animator.SetBool("moveLeft", false);
+
+            Animator.SetBool("moveRight", false);
+
+            Animator.SetBool("moveUp", false);
+
+            Animator.SetBool("moveDown", false);
+            Debug.Log("Turned off bools");
+
         }
     }
 
@@ -103,6 +114,17 @@ public class Character : MonoBehaviour
         }
     }
     void movement (Vector2 input) {
+
+        //Change animations back to idle
+        Animator.SetBool("moveLeft", false);
+
+        Animator.SetBool("moveRight", false);
+
+        Animator.SetBool("moveUp", false);
+
+        Animator.SetBool("moveDown", false);
+        Debug.Log("Turned off bools");
+
         if (Mathf.Abs(input.x) == 1f) {
 
             //Movement animation
@@ -143,15 +165,7 @@ public class Character : MonoBehaviour
                 bubblesEffect.enableEmission = true;
             }
         }
-        //Change animations back to idle
-        Animator.SetBool("moveLeft", false);
-        
-        Animator.SetBool("moveRight", false);
-        
-        Animator.SetBool("moveUp", false);
-       
-        Animator.SetBool("moveDown", false);
-        Debug.Log("Turned off bools");
+
     }
 
     public void resetLevel() {
