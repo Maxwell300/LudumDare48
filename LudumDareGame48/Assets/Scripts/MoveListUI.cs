@@ -23,6 +23,7 @@ public class MoveListUI : MonoBehaviour
     public Sprite leftArrow;
     public Sprite rightArrow;
     List<GameObject> imagesArray;
+
     void Start()
     {
         imagesArray = new List<GameObject>();
@@ -48,22 +49,40 @@ public class MoveListUI : MonoBehaviour
         for (int i = 0; i < inputArray.Count; i++) {
             if (inputArray[i].x == 1f) {
                 imagesArray[i].GetComponent<Image>().sprite = rightArrow;
+                var tempColor = imagesArray[i].GetComponent<Image>().color;
+                tempColor.a = 1f;
+                imagesArray[i].GetComponent<Image>().color = tempColor;
             }
             else if (inputArray[i].x == -1f) {
                 imagesArray[i].GetComponent<Image>().sprite = leftArrow;
+                var tempColor = imagesArray[i].GetComponent<Image>().color;
+                tempColor.a = 1f;
+                imagesArray[i].GetComponent<Image>().color = tempColor;
             }
             else if (inputArray[i].y == 1f) {
                 imagesArray[i].GetComponent<Image>().sprite = upArrow;
+                var tempColor = imagesArray[i].GetComponent<Image>().color;
+                tempColor.a = 1f;
+                imagesArray[i].GetComponent<Image>().color = tempColor;
             }
             else if (inputArray[i].y == -1f) {
                 imagesArray[i].GetComponent<Image>().sprite = downArrow;
+                var tempColor = imagesArray[i].GetComponent<Image>().color;
+                tempColor.a = 1f;
+                imagesArray[i].GetComponent<Image>().color = tempColor;
             }
 
             if (i == currentIndex) {
                 imagesArray[i].GetComponent<Image>().color = Color.gray;
+                var tempColor = imagesArray[i].GetComponent<Image>().color;
+                tempColor.a = 1f;
+                imagesArray[i].GetComponent<Image>().color = tempColor;
             }
             else {
                 imagesArray[i].GetComponent<Image>().color = Color.white;
+                var tempColor = imagesArray[i].GetComponent<Image>().color;
+                tempColor.a = 1f;
+                imagesArray[i].GetComponent<Image>().color = tempColor;
             }
         }
     }
