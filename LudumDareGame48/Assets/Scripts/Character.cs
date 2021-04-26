@@ -36,7 +36,7 @@ public class Character : MonoBehaviour
     public AudioSource audioSource;
 
 
-    // Start is called before the first frame update
+    // Start is called before the first frame update fdajsfkdl
     void Start()
     {
         rigidBody2D = GetComponent<Rigidbody2D>();
@@ -53,6 +53,7 @@ public class Character : MonoBehaviour
 
         GlobalVariables.Timer(ref moving, ref movingTimer);
         GlobalVariables.Timer(ref idk, ref idkTimer);
+
 
         input = new Vector2 (Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         if (Vector3.Distance(transform.position, movePoint.position) <= 0.05f && !moving && isAllowedToMove){
@@ -95,6 +96,9 @@ public class Character : MonoBehaviour
 
     void movementHelper() {
         if (!idk) {
+            if (currentIndex > 9) {
+                resetLevel();
+            }
             if (currentIndex != inputsArray.Count) {
                 movement(inputsArray[currentIndex]);
                 moveListUI.MoveListUIHandler(inputsArray, currentIndex);
