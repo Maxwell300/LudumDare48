@@ -14,6 +14,7 @@ public class Character : MonoBehaviour
         up, down, right, left
     }
 
+    public Animator Animator;
     Rigidbody2D rigidBody2D;
     public Transform movePoint;
     Vector2 input;
@@ -103,17 +104,54 @@ public class Character : MonoBehaviour
     }
     void movement (Vector2 input) {
         if (Mathf.Abs(input.x) == 1f) {
+
+            //Movement animation
+            if (input.x == -1f)
+            {
+                Debug.Log("Got to left");
+                Animator.SetBool("moveLeft", true);
+                Animator.SetBool("moveLeft", true);
+            } else if (input.x == 1f)
+            {
+                Debug.Log("Got to right");
+                Animator.SetBool("moveRight", true);
+            }
+            //END Movement animation
+
             if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(input.x, 0f, 0f), .2f, wall)) {
                 movePoint.position += new Vector3(inputsArray[currentIndex].x, 0f, 0f);
                 bubblesEffect.enableEmission = true;
             }
         }
         else if (Mathf.Abs(input.y) == 1f) {
+
+            //Movement animation
+            if (input.y == -1f)
+            {
+                Debug.Log("Got to down");
+                Animator.SetBool("moveDown", true);
+            }
+            else if (input.y == 1f)
+            {
+                Debug.Log("Got to up");
+                Animator.SetBool("moveUp", true);
+            }
+            //END Movement animation
+
             if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, input.y, 0f), .2f, wall)) {
                 movePoint.position += new Vector3(0f, inputsArray[currentIndex].y, 0f);
                 bubblesEffect.enableEmission = true;
             }
         }
+        //Change animations back to idle
+        Animator.SetBool("moveLeft", false);
+        
+        Animator.SetBool("moveRight", false);
+        
+        Animator.SetBool("moveUp", false);
+       
+        Animator.SetBool("moveDown", false);
+        Debug.Log("Turned off bools");
     }
 
     public void resetLevel() {
