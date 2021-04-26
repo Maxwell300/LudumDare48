@@ -33,7 +33,6 @@ public class PauseMenu : MonoBehaviour
     }
 
     public void MainMenu() {
-        Time.timeScale = 1f;
         GlobalVariables.timeInAudio = audioSource.time;
         SceneManager.LoadScene(0);
     }

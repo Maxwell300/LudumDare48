@@ -20,11 +20,11 @@ public class Character : MonoBehaviour
     Vector2 input;
     Vector3 startPos;
     Vector3 endPos;
-    public bool isAllowedToMove = true;
-    public bool idk = false;
-    public float idkTimer;
+    bool isAllowedToMove = true;
+    bool idk = true;
+    float idkTimer = 0.5f;
     public bool moving = false;
-    public float movingTimer;
+    float movingTimer;
     public float walkSpeed = 3f;
     float t = 0;
     public LayerMask wall;
@@ -36,7 +36,7 @@ public class Character : MonoBehaviour
     public AudioSource audioSource;
 
 
-    // Start is called before the first frame update
+    // Start is called before the first frame update fdajsfkdl
     void Start()
     {
         rigidBody2D = GetComponent<Rigidbody2D>();
@@ -54,6 +54,7 @@ public class Character : MonoBehaviour
         GlobalVariables.Timer(ref moving, ref movingTimer);
         GlobalVariables.Timer(ref idk, ref idkTimer);
 
+
         input = new Vector2 (Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         if (Vector3.Distance(transform.position, movePoint.position) <= 0.05f && !moving && isAllowedToMove){
             if (Mathf.Abs(input.x) == 1f || Mathf.Abs(input.y) == 1f) {
@@ -63,7 +64,6 @@ public class Character : MonoBehaviour
                 movingTimer = 0.5f * (inputsArray.Count);
                 isAllowedToMove = false;
                 idk = false;
-                idkTimer = 0.5f;
                 movementHelper();
             }
         }
@@ -85,6 +85,7 @@ public class Character : MonoBehaviour
             Animator.SetBool("moveUp", false);
 
             Animator.SetBool("moveDown", false);
+            Debug.Log("Turned off bools");
 
         }
     }
@@ -95,12 +96,19 @@ public class Character : MonoBehaviour
 
     void movementHelper() {
         if (!idk) {
+            if (currentIndex > 9) {
+                resetLevel();
+            }
             if (currentIndex != inputsArray.Count) {
                 movement(inputsArray[currentIndex]);
                 moveListUI.MoveListUIHandler(inputsArray, currentIndex);
                 currentIndex++;
                 idk = true;
                 idkTimer = 0.5f;
+<<<<<<< HEAD
+               
+=======
+>>>>>>> 36fa42b929871a7f88038c9902cdc8fe067b405e
             } 
             else if ( currentIndex == inputsArray.Count) {
                 isAllowedToMove = true;
