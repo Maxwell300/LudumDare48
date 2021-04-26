@@ -31,7 +31,6 @@ public class Character : MonoBehaviour
     public LayerMask enemies;
     public List<Vector2> inputsArray;
     public int currentIndex = 0;
-    public UnityEvent movedEvent;
     public MoveListUI moveListUI;
     public ParticleSystem bubblesEffect;
     public AudioSource audioSource;
@@ -102,7 +101,6 @@ public class Character : MonoBehaviour
                 currentIndex++;
                 idk = true;
                 idkTimer = 0.5f;
-                movedEvent.Invoke();
             } 
             else if ( currentIndex == inputsArray.Count) {
                 isAllowedToMove = true;
