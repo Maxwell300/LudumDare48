@@ -60,8 +60,8 @@ EditorBuildSettings:
     path: Assets/Scenes/lore6.unity
     guid: 6fcd271d5a8c0554ebd36f58fc06a51c
   - enabled: 1
-    path: Assets/Scenes/konami.unity
-    guid: 6e1c15e385643c346b0bccd002ab1af0
+    path: Assets/Scenes/rng.unity
+    guid: 1d70a799a6f04aa4e85ee15e62a3f769
   - enabled: 1
     path: Assets/Scenes/max.unity
     guid: 06b95fca739384e4c8c6f61a80a28b63
@@ -69,8 +69,8 @@ EditorBuildSettings:
     path: Assets/Scenes/lore7.unity
     guid: 09bb6dae9514d2a44a8070fd0d6caf1e
   - enabled: 1
-    path: Assets/Scenes/rng.unity
-    guid: 1d70a799a6f04aa4e85ee15e62a3f769
+    path: Assets/Scenes/konami.unity
+    guid: 6e1c15e385643c346b0bccd002ab1af0
   - enabled: 1
     path: Assets/Scenes/goDeeper.unity
     guid: 0c39a61144f0cb74dba84176002f84b9
